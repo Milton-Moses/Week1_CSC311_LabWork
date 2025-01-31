@@ -4,6 +4,7 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        //Tests the methods for the car class
         System.out.println("Initial:\n");
         Car Buick = new Car("Buick", 4, "Blue", 200.03F, "Diesel" );
         System.out.println(Buick.getBrand());
@@ -19,7 +20,7 @@ public class Main {
         Buick.setEngineSize(400.02F);
         Buick.setBrand("Quick");
         Buick.displayInfo();
-
+        //tests the methods for the vehicle class
         Vehicle Truck = new Vehicle( 4, "White", 600.03F, "Diesel");
         System.out.println("\nInitial:");
         System.out.println(Truck.getNumberOfWheels());
