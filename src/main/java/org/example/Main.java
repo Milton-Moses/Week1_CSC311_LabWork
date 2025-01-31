@@ -7,11 +7,8 @@ public class Main {
         //Tests the methods for the car class
         System.out.println("Initial:\n");
         Car Buick = new Car("Buick", 4, "Blue", 200.03F, "Diesel" );
-        System.out.println(Buick.getBrand());
-        System.out.println(Buick.getNumberOfWheels());
-        System.out.println(Buick.getColor());
-        System.out.println(Buick.getEngineSize());
-        System.out.println(Buick.getFuelType());
+        Buick.displayInfo();
+        Buick.honk();
 
         System.out.println("\nRevised:");
         Buick.setColor("Red");
@@ -28,7 +25,8 @@ public class Main {
         System.out.println(Truck.getEngineSize());
         System.out.println(Truck.getFuelType());
 
-        System.out.println("\nRevised:");
+        System.out.println("\nRevised:\n");
+
         Truck.setColor("Red");
         Truck.setFuelType("Gasoline");
         Truck.setNumberOfWheels(6);
