@@ -7,10 +7,10 @@ public class Vehicle {
     private String fuelType;
 
     public Vehicle(){
-        numberOfWheels = this.numberOfWheels;
-        color = this.color;
-        engineSize = this.engineSize;
-        fuelType = this.fuelType;
+        this.numberOfWheels = numberOfWheels;
+        this.color = color;
+        this.engineSize = engineSize;
+        this.fuelType = fuelType;
     }
 
     public Vehicle(int numberOfWheels, String color, float engineSize, String fuelType){
